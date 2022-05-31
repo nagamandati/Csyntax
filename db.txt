@@ -1,0 +1,12 @@
+create database syntaxcheck;
+use syntaxcheck;
+
+create table user(username varchar(50) primary key,
+password varchar(50),
+contact_no varchar(15),
+email varchar(50),
+address varchar(50));
+
+create table syntax(syntax varchar(150));
+
+
